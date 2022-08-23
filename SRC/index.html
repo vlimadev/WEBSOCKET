@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4f290da886.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../style/style.css">  
+</head>
+<body>
+    <div class="texto"> 
+        <h1> DEMONSTRAÇÃO WEBSOCKET</h1>
+    </div>
+
+    <div class="moedas">
+        <div class="moeda" id="divEth">
+            <i class="fa-brands fa-ethereum iconeMoeda" id="ethMoeda" ></i>
+            <h1 id="valorEth"  class="valorMoeda"></h1>
+        </div>
+
+        <div class="moeda " id="divBtc">
+            <i class="fa-brands fa-bitcoin iconeMoeda" id="btcMoeda"></i>
+            <h1 id="valorBtc" class="valorMoeda"></h1>
+        </div>
+
+        <div class="moeda" id="divSol">
+            <i class="fa-solid fa-s iconeMoeda" id="solMoeda"></i>
+            <h1 id="valorSol" class="valorMoeda"></h1>
+        </div>
+    </div>
+
+
+        <script src="../servers/ethereum.js"></script>
+        <script src="../servers/bitcoin.js"></script>
+        <script src="../servers/solana.js"></script>
+        
+</body>
+</html>

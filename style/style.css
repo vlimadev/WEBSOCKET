@@ -1,0 +1,53 @@
+html , body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333533;
+    overflow: hidden;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6257ac;
+    color: #202020;
+    border-bottom:solid black 1px;
+    
+}
+
+
+.moedas{   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        
+    
+}
+
+.moeda{
+    margin:2%;
+    width: 30%;
+    height: 40%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:solid 3px;
+    border-radius:2px;
+}
+
+
+.iconeMoeda{
+ font-size: 100px;
+ padding: 5px;
+}
+
+.valorMoeda{
+    font-size: 30px;
+   
+}
+
